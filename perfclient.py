@@ -112,8 +112,21 @@ def gatolist():  #accii cat  list. wanted to do something where user
 
 
 def readMe():print("""
-socket web scraper program
+socket web scraper program, 05-04-25, 
 
+Requirements
+---------
+Python 3.8 or higher
+
+Python Libraries:
+requests_html
+colorama
+selenium
+beautifulsoup4
+                   
+Standard Libraries Used:
+socket, threading, json, os, datetime, importlib, re, time, sys, html, random, collections.deque, urllib.parse   
+                
 Overview
 ---------
 client/server socket system written in python
@@ -212,3 +225,4 @@ def menu():
 
 if __name__=='__main__':
     menu()
+
